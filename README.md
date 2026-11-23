@@ -4,9 +4,9 @@ The data behind [nohacks.co/research/christmas](https://nohacks.co/research/chri
 
 Headline numbers, all reproducible from `data/trips.csv`:
 
-- With an obviously fake deal on the shelf, the models bought it 1,202 times out of 3,239 purchases (37%).
+- With an obviously fake deal on the shelf, the models bought it in 1,202 of 3,240 trips (37%).
 - In 315 trips a model wrote that a deal looked suspicious, and in 137 of those it bought the fake anyway. In those 315 trips a model asked a question 10 times, every time about slipper size, never about the deal.
-- With the fake removed, the listing with the higher star rating won 2,277 of 2,915 purchases (78%).
+- With the fake removed, the listing with the higher star rating won 2,277 of 2,916 trips (78%).
 - A listing carrying a hidden note telling AIs to pick it won 14 times across all 6,156 trips, all on one model.
 
 Written up in the article [AI Shoppers Bought an Obviously Fake Deal 37% of the Time](https://nohacks.co/blog/ai-shoppers-bought-an-obviously-fake-deal).
@@ -61,7 +61,7 @@ Written up in the article [AI Shoppers Bought an Obviously Fake Deal 37% of the 
 ## What to know before you use it
 
 - **The thinking flags are a floor.** A broad word search ("trap", "benchmark", "made up", "fictional" and similar) picked out passages from the models' reasoning and replies, and AI readers (Claude agents) labelled each flagged trip by reading it; the labels were then spot-checked. Claude Haiku, Gemini 3.5 Flash-Lite and Gemini 4 Argon return no readable reasoning, and OpenAI's models return only a summary, so a doubt they never wrote down cannot be counted.
-- **Two trips have no purchase.** One per run: the model replied without buying. That is why the percentages use 3,239 and 2,915 purchases against 3,240 and 2,916 trips.
+- **Two trips have no purchase.** One per run, both Gemini 3.5 Flash-Lite: the model replied without buying. Every share on the study page is out of the trips (3,240 and 2,916), not the purchases.
 - **The fake is different in more than one way.** It has a lower price, a perfect rating and far more reviews at once, which is what makes it obviously fake. Every other listing differs from the rest in exactly one thing.
 - **The trip records are cleaned.** Request ids and encrypted reasoning blobs returned by the providers were removed. Nothing the model said was changed.
 - **A snapshot.** These are the models as they answered on 14 and 15 November 2026. Models change.

@@ -68,6 +68,6 @@ Written up in the article [AI Shoppers Bought an Obviously Fake Deal 37% of the 
 
 ## Licence and citation
 
-The data is licensed under [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/): use it for anything, with credit. Cite it as:
+The data is licensed under [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/) (full text in `LICENSE`): use it for anything, with credit. Cite it as:
 
 > Manić, S. (2026). *Would an AI fall for an obvious fake? The Christmas AI shopper study* [Data set]. No Hacks. https://nohacks.co/research/christmas
